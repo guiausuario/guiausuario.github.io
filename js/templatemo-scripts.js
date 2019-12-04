@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // Single Page Nav for highlighting nav items
-  $("#tmMainNav").singlePageNav();
+  //$("#tmMainNav").singlePageNav();
 
   // Carousel in Our Work section
   $(".tm-gallery").slick({
@@ -75,5 +75,8 @@ $(document).ready(function() {
     }
   });
 
+  
+  $("#tmMainNav .nav-link").click(function(e) {
+    $(".tm-sidebar").removeClass("show");
   });
 });
