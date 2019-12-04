@@ -75,7 +75,5 @@ $(document).ready(function() {
     }
   });
 
-  $("#tmMainNav .nav-link").click(function(e) {
-    $(".tm-sidebar").removeClass("show");
   });
 });
